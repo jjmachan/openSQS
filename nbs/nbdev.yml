@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "openSQS"
+  site-url: "https://jjmachan.github.io/openSQS"
+  description: "A PostgreSQL-powered distributed task processing system built with Python and SQLModel/SQLAlchemy."
+  repo-branch: main
+  repo-url: "https://github.com/jjmachan/openSQS"
