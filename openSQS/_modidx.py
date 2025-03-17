@@ -5,4 +5,7 @@ d = { 'settings': { 'branch': 'main',
                 'doc_host': 'https://jjmachan.github.io',
                 'git_url': 'https://github.com/jjmachan/openSQS',
                 'lib_path': 'openSQS'},
-  'syms': {'openSQS.core': {'openSQS.core.foo': ('core.html#foo', 'openSQS/core.py')}}}
+  'syms': { 'openSQS.core': {'openSQS.core.foo': ('core.html#foo', 'openSQS/core.py')},
+            'openSQS.db.connection': {'openSQS.db.connection.get_session': ('db/connection.html#get_session', 'openSQS/db/connection.py')},
+            'openSQS.db.schema': { 'openSQS.db.schema.Task': ('db/schema.html#task', 'openSQS/db/schema.py'),
+                                   'openSQS.db.schema.TaskStates': ('db/schema.html#taskstates', 'openSQS/db/schema.py')}}}
